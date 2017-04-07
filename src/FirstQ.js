@@ -31,7 +31,7 @@ class FirstQ extends Component {
             <p className="control">
                 <span className="select">
                 <select>
-                    <input type="text" id="todoDueAt" class="form-control" placeholder="Due Date" />
+                    <input timepicker />
                 </select>
                 </span>
             </p>
@@ -41,5 +41,6 @@ class FirstQ extends Component {
      
   }
 }
+
 
 export default FirstQ;
